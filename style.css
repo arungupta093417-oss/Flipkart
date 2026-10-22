@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #0f172A;
+    
+
+}
+
+#main #cards{
+    padding-top: 50px;
+    padding-left: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 1000px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#cards #circle{
+    width: 200px;
+    height: 200px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQjDYLQiGoHOM6_thGgUWPX_3EuapeJQPHATtk9uPc7w&s");
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+#cards h1{
+    font-size: 65px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(61, 61, 61);
+}
+
+#cards p{
+    font-size: 40px;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#cards button{
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(66, 66, 66);
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    margin-top: 20px;
+    
+    
+}
